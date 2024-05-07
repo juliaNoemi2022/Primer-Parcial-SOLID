@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace primer_parcial_solid_transporte
+namespace PrimerParcial
 {
-    public class Avion : ITransporte
+    public class Avion : ITransporte, IVolar, IGuardarEnBD
     {
         public string _nombre;
         public int _velocidadActual;
@@ -51,10 +51,6 @@ namespace primer_parcial_solid_transporte
             }
         }
 
-        public void guardarEnBD()
-        {
-            TransporteRepository repository = new TransporteRepository();
-            repository.guardar(this);
-        }
+       
     }
 }

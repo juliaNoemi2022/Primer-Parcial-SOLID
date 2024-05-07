@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace primer_parcial_solid_transporte
+namespace PrimerParcial
 {
-    public class Tren : ITransporte
+    public class Tren : ITransporte, IGuardarEnBD
         /*Tiene varios puntos que no estrìan desarrollados optimamente, en primer lugar:
          * Esta clase se encarga de màs de una funciòn, es decir tiene funciones relacionadas que podrìan utilizarse de esa manera, pero tambièn tiene una funciòn de permanencia
          * en ese caso se estarìa violando el Principio de Responsabilidad Ùnica. Por otro lado hay una clase que se està aplicando y no retorna nada, por lo cual se està violando el Principio 
@@ -36,16 +36,12 @@ namespace primer_parcial_solid_transporte
                 this._velocidadActual = 0;
             }
         }
-        /*Este procedimiento pasarìa a ser una interface que no debe implementarse poorque no lo requiere la clase*/
-        public void Volar(int altitud)
+        /*Este procedimiento pasarìa a ser una interface que no debe implementarse y como acà no devuelve nada, lo elimino*/
+      /* public void Volar(int altitud)
         {
             return;
         }
 
-        public void guardarEnBD()
-        {
-            TransporteRepository repository = new TransporteRepository();
-            repository.guardar(this);
-        }
-    }
+       
+    }*/ //se elimina de aca
 }
