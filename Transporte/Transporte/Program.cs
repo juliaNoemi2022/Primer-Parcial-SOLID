@@ -7,14 +7,15 @@ namespace primer_parcial_solid_transporte
     {
         static void Main(string[] args)
         {
+           
 
             List<ITransporte> transportes = new List<ITransporte>();
 
             Avion avion1 = new Avion();
             avion1._nombre = "AVION 01";
-            avion1._velocidadActual = 0;
+            avion1._velocidadActual = 5;
             avion1._velocidadMaxima = 100;
-            avion1._alturaActual = 0;
+            avion1._alturaActual = 10;
             avion1._alturaMaxima = 100;
             transportes.Add(avion1);
 
