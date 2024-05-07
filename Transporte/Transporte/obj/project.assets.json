@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\1er parcial parte SOLID\\Transporte\\Transporte\\Transporte.csproj",
-      "projectName": "Transporte",
-      "projectPath": "D:\\1er parcial parte SOLID\\Transporte\\Transporte\\Transporte.csproj",
+      "projectUniqueName": "D:\\1er parcial parte SOLID\\Transporte\\Transporte\\PrimerParcial.csproj",
+      "projectName": "PrimerParcial",
+      "projectPath": "D:\\1er parcial parte SOLID\\Transporte\\Transporte\\PrimerParcial.csproj",
       "packagesPath": "C:\\Users\\jalatec-1\\.nuget\\packages\\",
       "outputPath": "D:\\1er parcial parte SOLID\\Transporte\\Transporte\\obj\\",
       "projectStyle": "PackageReference",
