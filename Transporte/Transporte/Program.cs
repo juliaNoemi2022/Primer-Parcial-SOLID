@@ -7,7 +7,8 @@ namespace primer_parcial_solid_transporte
     {
         static void Main(string[] args)
         {
-           
+          /*En el main podrÀ solo llamar a la clase con this, de cualquiera de los tipos de vehìculos, y llevarme velocidadActual, alturaActual, alturaMaxima y velocidadMaxima
+           * a cada una de las clases (Avion y Tren) para que ellas se encarguen de ello y asi tambièn respetar el Principio de Lisov*/
 
             List<ITransporte> transportes = new List<ITransporte>();
 

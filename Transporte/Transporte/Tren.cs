@@ -36,7 +36,7 @@ namespace primer_parcial_solid_transporte
                 this._velocidadActual = 0;
             }
         }
-
+        /*Este procedimiento pasarìa a ser una interface que no debe implementarse poorque no lo requiere la clase*/
         public void Volar(int altitud)
         {
             return;

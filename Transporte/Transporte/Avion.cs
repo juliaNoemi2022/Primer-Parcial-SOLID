@@ -34,7 +34,7 @@ namespace primer_parcial_solid_transporte
                 this._velocidadActual = 0;
             }
         }
-
+        /*Este procedimiento deberia llevarlo a una Interface que sea volar, y Luego implementarla en esta clase que si lo requiere*/
         public void Volar(int altitud)
         {
             if ((this._alturaActual + altitud) < 0)
