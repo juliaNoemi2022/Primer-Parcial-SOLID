@@ -1,0 +1,1 @@
+Primer Parcial SOLID, profe intentè justificar con lo que sè de teorìa sobre como refactorizarìa el software, en la teorìa lo sè, pero me cuesta implementarlo porque en verdad sè muy poco sobre POO, espero poder con la pràctica mejorarlo para el recuperatorio
